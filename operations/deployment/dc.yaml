@@ -192,16 +192,6 @@ parameters:
   name: VERSION
   required: true
   value: v1.0.0
-- description: github ID of the request repo
-  displayName: repo id value
-  name: REPO_ID_VALUE
-  required: true
-  value: "219808631"
-- description: application ID
-  displayName: app id
-  name: APP_ID_VALUE
-  required: true
-  value: "46693"
 - description: team org
   displayName: team org
   name: OPS_TEAM_ORG_VALUE
@@ -212,8 +202,3 @@ parameters:
   name: OPS_TEAM_NAME_VALUE
   required: true
   value: "devops-request"
-- description: webhook proxy url
-  displayName: webhook proxy url
-  name: WEBHOOK_PROXY_URL_VALUE
-  required: true
-  value: "https://smee.io/kaZCGksf7N5jrl"

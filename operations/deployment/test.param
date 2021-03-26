@@ -1,0 +1,7 @@
+NAME=requestron
+SUFFIX=-test
+VERSION=v1.0.0
+SOURCE_REPOSITORY_URL=https://github.com/bcgov/platform-services-requestron
+SOURCE_REPOSITORY_REF=main
+OPS_TEAM_ORG_VALUE=BCDevOps
+OPS_TEAM_NAME_VALUE=devops-request
