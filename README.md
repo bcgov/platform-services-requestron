@@ -28,6 +28,7 @@ To install into production:
 ```
 oc apply -f operations/deployment/secrets/prod.yaml -n 6e2f55-prod
 oc process -f operations/deployment/bc.yaml --param-file=operations/deployment/prod.param --ignore-unknown-parameters | oc apply -f - -n 6e2f55-prod
+oc start-build requestron-prod -n 6e2f55-prod
 oc process -f operations/deployment/dc.yaml --param-file=operations/deployment/prod.param --ignore-unknown-parameters | oc apply -f - -n 6e2f55-prod
 ```
 
