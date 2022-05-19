@@ -4,6 +4,8 @@
 
 Requestron currently lives in the RocketChat namespaces (project set 6e2f55).
 
+[![Lifecycle:Stable](https://img.shields.io/badge/Lifecycle-Stable-97ca00)](<Redirect-URL>)
+
 ## Usage Requirements
 
 There are several assumptions made by the bot about the way tickets must be set up in order to operate properly.
